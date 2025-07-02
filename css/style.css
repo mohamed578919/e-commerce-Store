@@ -1,0 +1,366 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+*{
+    font-family: "Ubuntu", sans-serif;
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+:root
+{
+    --blue : #18115e;
+    --white : #fff;
+    --gray : #f5f5f5;
+    --black1 : #222;
+    --black2 : #999;
+
+}
+body
+{
+    min-height: 50vh;
+    background-image: url(../images/head_bg.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    /* overflow-x: hidden; */
+}
+
+
+
+/* ============= container ============ */
+/* .w_cont
+{
+    position: relative;
+    width: 100%;
+} */
+/* ============= container ============ */
+
+
+/* ============= navigation ============ */
+.navigation
+{
+    margin-top: 5px;
+    width: 260px;
+    border-top-right-radius: 90px;
+    background-color: var(--blue);
+    transition: 0.5s;
+    overflow: hidden;
+}
+/* ============= navigation ============ */
+
+
+/* .showList
+{
+    width: 50px;
+    height: 50px;
+    border-radius: 5px;
+    position: absolute;
+    top: 0px;
+    right: -20px;
+} */
+
+/* ============= navigation list ============ */
+
+.navigation ul
+{
+   list-style: none;
+   margin-top: 20px;
+   height: 95%;
+   position: relative;
+}
+.showList
+{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.person
+{
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    border-radius: 20px;
+    overflow: hidden;
+    margin-left: 10px;
+}
+.person img
+{
+    width: 100%;
+    height: 100%;
+    stroke: 0;
+}
+.navigation ul li{
+   margin: 15px 0px;
+}
+.navigation ul li a
+{
+   display: block;
+   padding: 10px;
+   margin: 5px 0px;
+   display: flex;
+   align-items: center;
+   gap: 40px;
+   text-decoration: none;
+   border-bottom-left-radius: 50px;
+   border-top-left-radius: 50px;
+   transition: 0.5s;
+   color: var(--gray);
+  
+}
+
+.navigation ul li a i
+{
+    font-size: 1.5rem;
+}
+.userProf
+{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    background-color: #532bbec4;
+   pointer-events: none;
+   border-bottom-left-radius: 50px;
+   border-top-left-radius: 50px;
+}
+.navigation ul li a:hover
+{
+   background-color: #e8e7ebee;
+   color: var(--blue);
+  
+}
+.log_out a
+{
+    position: absolute;
+    bottom: 10px;
+    width: 100%;
+    background-color: rgba(122, 23, 23, 0.829);
+    border-radius: 50px;
+
+
+}
+.log_out a:hover
+{
+    background-color: #c73737b0;
+}
+
+.h_ustomer
+{
+    height: 70px;
+    font-size: 2rem;
+    color: antiquewhite;
+    background-color: rgb(0, 13, 201);
+    border-radius: 20px;
+    border: 3px solid rgb(74, 255, 201);
+    margin: 0px 5px;
+
+}
+.head_info:hover
+{
+    background-color: var(--blue);
+    color: var(--white);
+}
+.c_char
+{
+    font-size: 2.5rem;
+   color: rgb(255, 255, 74);
+}
+  
+/* ============= navigation list ============ */
+
+
+/* ============= main ============ */
+.main
+{
+    position: absolute;
+    width: 80%; 
+    left : 260px;
+    background-color: var(--white);
+    width: calc(100% - 260px);
+}
+.grud
+{
+    position: absolute;
+    width: 80%; 
+    left : 260px;
+    background-color: var(--white);
+    width: calc(100% - 260px);
+}
+.Users
+{
+    position: absolute;
+    width: 80%; 
+    left : 260px;
+    background-color: var(--white);
+    width: calc(100% - 260px);
+}
+.website_head
+{
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+    background-image: url(../images/head_bg.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+   
+}
+.web_head_bgOf
+{
+    height: 70vh;
+    color: var(--white);
+    /* background-color: #b19c9c3f; */
+    width: 100%;
+    overflow: hidden;
+}
+.web_head_bgOf:hover .img-phone 
+{
+    
+    left: 25%;
+    height: 60%;
+}
+
+.img-phone 
+{
+    position: absolute;
+    bottom: 0;
+    left: 10%;
+    height: 0%;
+    width: 30%;
+    transition: 1.3s;
+
+
+}
+
+.img-phone img
+{
+    width: 100%;
+    height: 100%;
+}
+.head_title
+{
+    height: 60%;
+    color: var(--white);
+
+}
+.card
+{
+    background-color: #4f4e5800;
+    border: 0px;
+    
+}
+.card-body
+{
+    background-color: #4f4e5800;
+    border: 0px;
+
+}
+/* ============= main ============ */
+
+
+
+@media (max-width: 768px) {
+    /* Styles for screens smaller than or equal to 768px */
+    .navigation{
+     width: 60px;
+    }
+    .navigation ul 
+    {
+       padding: 0px;
+       margin: 0px;
+       border: 0px;
+    }
+    .navigation ul li .title{
+       display: none;
+       }
+       .navigation ul li i{
+          font-size: 1rem;
+          justify-content: start;
+        }
+        .navigation ul li .person{
+            margin-left: 0px;
+            justify-content: start;
+          }
+          .head_info
+          {
+            font-size: 0.7rem;
+          }
+    .main
+    {
+        width:calc(100% - 60px);
+        left : 60px;
+    }
+    .web_head_bgOf
+{
+    height: 50vh;
+    width: 100%;
+    overflow: hidden;
+}
+.img-phone 
+{
+    display: none;
+
+}
+    .grud
+    {
+        width:calc(100% - 60px);
+        left : 60px;
+    }
+    .grud .products_table th:nth-child(3),
+    .grud .products_table th:nth-child(4),
+    .grud .products_table th:nth-child(5),
+    .grud .products_table th:nth-child(6),
+    .grud .products_table th:nth-child(7),
+    .grud .products_table td:nth-child(3),
+    .grud .products_table td:nth-child(4),
+    .grud .products_table td:nth-child(5),
+    .grud .products_table td:nth-child(6),
+    .grud .products_table td:nth-child(7)
+    {
+        display: none;
+    }
+    .Users
+    {
+        width:calc(100% - 60px);
+        left : 60px;
+    }
+  }
+
+  @media (max-width: 992px) 
+  {
+    .grud .products_table th:nth-child(3),
+    .grud .products_table th:nth-child(4),
+    .grud .products_table th:nth-child(5),
+    .grud .products_table th:nth-child(6),
+    .grud .products_table th:nth-child(7),
+    .grud .products_table td:nth-child(3),
+    .grud .products_table td:nth-child(4),
+    .grud .products_table td:nth-child(5),
+    .grud .products_table td:nth-child(6),
+    .grud .products_table td:nth-child(7)
+    {
+        display: none;
+    }
+    .img-phone 
+{
+    display: none;
+
+}
+  }
+
+  @media (max-width: 576px) {
+      .main .products_table
+      {
+        display: none;
+      }
+      .grud .products_table
+      {
+        display: none;
+        font-size: 0.4rem;
+      }
+    .Users .user_table th:nth-child(3),
+    .Users .user_table th:nth-child(4),
+    .Users .user_table td:nth-child(3),
+    .Users .user_table td:nth-child(4)
+    {
+        display: none;
+    }
+      
+  }

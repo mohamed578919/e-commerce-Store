@@ -1,0 +1,170 @@
+[
+  {
+    "id": 1,
+    "name": "Samsung Galaxy S21",
+    "price": 399.99,
+    "description": "Samsung Galaxy S21, a premium smartphone featuring a stunning display and powerful performance.",
+    "img": "image/product/1.png",
+    "category": "phone"
+  },
+  {
+    "id": 2,
+    "name": "Apple iPhone 13",
+    "price": 499.99,
+    "description": "Apple iPhone 13, known for its sleek design, powerful camera, and seamless user experience.",
+    "img": "image/product/2.png",
+    "category": "phone"
+  },
+  {
+    "id": 3,
+    "name": "Google Pixel 6",
+    "price": 349.99,
+    "description": "Google Pixel 6, featuring an exceptional camera and pure Android experience.",
+    "img": "image/product/3.png",
+    "category": "phone"
+  },
+  {
+    "id": 4,
+    "name": "OnePlus 9",
+    "price": 399.99,
+    "description": "OnePlus 9, offering fast performance and a vibrant display for an immersive experience.",
+    "img": "image/product/4.png",
+    "category": "phone"
+  },
+  {
+    "id": 5,
+    "name": "Xiaomi Mi 11",
+    "price": 449.99,
+    "description": "Xiaomi Mi 11, equipped with a powerful processor and stunning camera capabilities.",
+    "img": "image/product/5.png",
+    "category": "phone"
+  },
+  {
+    "id": 6,
+    "name": "Huawei P40",
+    "price": 399.99,
+    "description": "Huawei P40, known for its excellent camera and sleek design.",
+    "img": "image/product/6.png",
+    "category": "phone"
+  },
+  {
+    "id": 7,
+    "name": "Sony Xperia 5 II",
+    "price": 499.99,
+    "description": "Sony Xperia 5 II, featuring a great display and high-quality audio experience.",
+    "img": "image/product/7.png",
+    "category": "phone"
+  },
+  {
+    "id": 8,
+    "name": "Motorola Moto G Power",
+    "price": 249.99,
+    "description": "Motorola Moto G Power, offering long battery life and solid performance.",
+    "img": "image/product/8.png",
+    "category": "phone"
+  },
+  {
+    "id": 9,
+    "name": "Oppo Find X3",
+    "price": 499.99,
+    "description": "Oppo Find X3, designed with premium materials and a powerful camera system.",
+    "img": "image/product/9.png",
+    "category": "phone"
+  },
+  {
+    "id": 10,
+    "name": "Realme GT",
+    "price": 399.99,
+    "description": "Realme GT, delivering top-notch performance and a stylish design.",
+    "img": "image/product/10.png",
+    "category": "phone"
+  },
+  {
+    "id": 11,
+    "name": "Samsung Galaxy A52",
+    "price": 299.99,
+    "description": "Samsung Galaxy A52, featuring a vibrant display and a versatile camera.",
+    "img": "image/product/11.png",
+    "category": "phone"
+  },
+  {
+    "id": 12,
+    "name": "Apple iPhone 12",
+    "price": 499.99,
+    "description": "Apple iPhone 12, known for its powerful performance and stunning design.",
+    "img": "image/product/12.png",
+    "category": "phone"
+  },
+  {
+    "id": 13,
+    "name": "Apple AirPods 1",
+    "price": 159.99,
+    "description": "Apple AirPods 1, offering seamless connectivity and high-quality audio in a compact design.",
+    "img": "image/product/13.png",
+    "category": "airpods"
+  },
+  {
+    "id": 14,
+    "name": "Apple AirPods 2",
+    "price": 199.99,
+    "description": "Apple AirPods 2, featuring improved battery life and enhanced sound quality for an immersive listening experience.",
+    "img": "image/product/14.png",
+    "category": "airpods"
+  },
+  {
+    "id": 15,
+    "name": "Apple AirPods Pro",
+    "price": 249.99,
+    "description": "Apple AirPods Pro, equipped with active noise cancellation and a customizable fit for optimal comfort.",
+    "img": "image/product/15.png",
+    "category": "airpods"
+  },
+  {
+    "id": 16,
+    "name": "Apple AirPods Max",
+    "price": 549.99,
+    "description": "Apple AirPods Max, offering premium over-ear design with exceptional sound quality and comfort.",
+    "img": "image/product/16.png",
+    "category": "airpods"
+  },
+  {
+    "id": 17,
+    "name": "Apple AirPods 3",
+    "price": 179.99,
+    "description": "Apple AirPods 3, featuring spatial audio and a durable design for an enhanced listening experience.",
+    "img": "image/product/17.png",
+    "category": "airpods"
+  },
+  {
+    "id": 18,
+    "name": "Apple AirPods Pro 2",
+    "price": 249.99,
+    "description": "Apple AirPods Pro 2, with advanced noise cancellation and immersive sound for the ultimate audio experience.",
+    "img": "image/product/18.png",
+    "category": "airpods"
+  },
+  {
+    "id": 19,
+    "name": "Smart Watch Series 1",
+    "price": 199.99,
+    "description": "A stylish smartwatch featuring fitness tracking and notifications.",
+    "img": "image/product/19.png",
+    "category": "watches"
+  },
+  {
+    "id": 20,
+    "name": "Smart Watch Series 2",
+    "price": 249.99,
+    "description": "An advanced smartwatch with health monitoring and customizable watch faces.",
+    "img": "image/product/20.png",
+    "category": "watches"
+  },
+  {
+    "id": 21,
+    "name": "Smart Watch Series 3",
+    "price": 299.99,
+    "description": "A premium smartwatch with GPS, heart rate monitoring, and mobile payments.",
+    "img": "image/product/21.png",
+    "category": "watches"
+  }
+]
